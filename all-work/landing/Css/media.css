@@ -1,0 +1,202 @@
+@media(max-width: 1180px){
+  .reviews-box{
+    justify-content: center;
+  }
+
+  .reviews-slider {
+    margin-top: 60px;
+}
+.reviews-slider .slick-dots {
+  margin-top: 0;
+}
+}
+
+@media(max-width: 1160px){
+  .price__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .price-item{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1065px){
+.top-info{
+  max-width: 425px;
+}
+}
+
+@media (max-width: 992px){
+  .menu__list{
+    display: none;
+    position: absolute;
+    top: 87px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #000;
+    z-index: 5;
+  }
+
+  .menu__list li{
+    margin-left: 0;
+  }
+
+  .menu__list a{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+  }
+
+  .btn__menu{
+    display: block;
+  }
+
+  .price {
+    padding: 70px 0;
+}
+
+.price__descr {
+  margin: 35px auto 70px;
+}
+
+.reviews {
+  padding: 80px 0;
+}
+
+.footer{
+  padding: 50px 0;
+}
+}
+
+
+@media (max-width: 940px){
+  .top-info{
+    max-width: 325px;
+  }
+
+  .footer__inner {
+  flex-wrap: wrap;
+}
+  }
+
+  @media (max-width: 855px){
+   .top-images__box img{
+     width: 300px;
+   }
+
+   .top-images__circle{
+    width: 160px;
+    height: 160px;
+    top: -30px;
+    right: -30px;
+    }
+  }
+
+  @media(max-width: 789px){
+    .partners__inner{
+      justify-content: center;
+    }
+  }
+  
+    @media (max-width: 740px){
+     .top__inner{
+       flex-wrap: wrap;
+       justify-content: center;
+     }
+     .top-info{
+       max-width: 100%;
+       margin-right: 0;
+       margin-bottom: 75px;
+     }
+     .top{
+       padding-top: 50px;
+       padding-bottom: 80px;
+     }
+    }
+
+    @media(max-width: 576px){
+      .title{
+        font-size: 36px;
+      }
+
+      .reviews-box{
+        flex-direction: column;
+      }
+      .reviews-box__images{
+        width: 100%;
+        min-height: 180px;
+      }
+      .reviews-box__content{
+        width: 100%;
+        min-height: 230px;
+      }
+    }
+
+    @media(max-width:470px){
+      .footer__inner {
+        justify-content: center;
+    }
+      .footer-col__logo {
+        margin-bottom: 20px;
+    }
+
+    .footer__tittle {
+      margin-bottom: 12px;
+  }
+    }
+
+    @media (max-width: 435px){
+      .top-info__desscr span {
+        font-size: 14px;
+        line-height: 15px;
+        display: block;
+      }
+    }
+
+    @media(max-width: 408px){
+      .reviews-box__content{
+        padding: 20px 40px;
+      }
+      .reviews-box__text {
+        margin-bottom: 15px;
+    }
+    }
+
+
+    @media (max-width: 399px){
+      .top-info__tittle{
+        font-size: 40px;
+        line-height: 42px;
+      }
+      .top-images__circle{
+        width: 160px;
+        height: 160px;
+        top: -5px;
+        right: 10px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Виправлення бага з пропаданням меню */
+@media (min-width: 992px) {
+  .menu__list{
+    display: flex !important;
+  }
+}
